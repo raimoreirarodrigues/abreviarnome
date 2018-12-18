@@ -1,0 +1,31 @@
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+
+<h4>Exemplos</h4>
+
+<ul>
+  <li>Francisco da Silva Alencar - <span id="nome1"></span></li>
+  <li>Maria das Graças Peixoto - <span id="nome2"></span></li>
+  <li>Antônio dos Santos Teles - <span id="nome3"></span></li>
+  <li>Marcos Feitosa Lima Duarte - <span id="nome4"></span></li>
+</ul>
+<script src="main.js"></script>
+<script>
+   var nome1 = 'Francisco da Silva Alencar';
+   document.getElementById("nome1").innerHTML = abreviarNome(nome1,9,7)+' '+abreviarSobrenome(nome1,1);
+   
+   var nome2 = 'Maria das Graças Peixoto';
+   document.getElementById("nome2").innerHTML = abreviarNome(nome2,9,7)+' '+abreviarSobrenome(nome2,1);
+   
+   var nome3 = 'Antônio dos Santos Teles';
+   document.getElementById("nome3").innerHTML = abreviarNome(nome3,9,7)+' '+abreviarSobrenome(nome3,1);
+   
+   var nome4 = 'Marcos Feitosa Lima Duarte';
+   document.getElementById("nome4").innerHTML = abreviarNome(nome4,9,7)+' '+abreviarSobrenome(nome4,1);
+
+</script>
+</body>
+</html>
